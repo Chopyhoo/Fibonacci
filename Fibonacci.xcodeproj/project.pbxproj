@@ -1,0 +1,389 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9139B3A91E93AF6E0054494D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9139B3A81E93AF6E0054494D /* AppDelegate.swift */; };
+		9139B3AB1E93AF6E0054494D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9139B3AA1E93AF6E0054494D /* ViewController.swift */; };
+		9139B3AE1E93AF6E0054494D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9139B3AC1E93AF6E0054494D /* Main.storyboard */; };
+		9139B3B01E93AF6E0054494D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9139B3AF1E93AF6E0054494D /* Assets.xcassets */; };
+		9139B3B31E93AF6E0054494D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9139B3B11E93AF6E0054494D /* LaunchScreen.storyboard */; };
+		949FF1EDF7690D637D33D3F5 /* Pods_Fibonacci.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 030CF5FD8833D3CEE6438D84 /* Pods_Fibonacci.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		030CF5FD8833D3CEE6438D84 /* Pods_Fibonacci.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Fibonacci.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		59CA35AB956EF2C868DA366C /* Pods-Fibonacci.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fibonacci.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Fibonacci/Pods-Fibonacci.debug.xcconfig"; sourceTree = "<group>"; };
+		9139B3A51E93AF6E0054494D /* Fibonacci.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fibonacci.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9139B3A81E93AF6E0054494D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9139B3AA1E93AF6E0054494D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9139B3AD1E93AF6E0054494D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9139B3AF1E93AF6E0054494D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9139B3B21E93AF6E0054494D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9139B3B41E93AF6E0054494D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96D32BA458299698BFCA469C /* Pods-Fibonacci.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fibonacci.release.xcconfig"; path = "Pods/Target Support Files/Pods-Fibonacci/Pods-Fibonacci.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9139B3A21E93AF6E0054494D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				949FF1EDF7690D637D33D3F5 /* Pods_Fibonacci.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		41B7C92350A90566441496F0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				030CF5FD8833D3CEE6438D84 /* Pods_Fibonacci.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9139B39C1E93AF6E0054494D = {
+			isa = PBXGroup;
+			children = (
+				9139B3A71E93AF6E0054494D /* Fibonacci */,
+				9139B3A61E93AF6E0054494D /* Products */,
+				FF7783128652365FFCA313DD /* Pods */,
+				41B7C92350A90566441496F0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9139B3A61E93AF6E0054494D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9139B3A51E93AF6E0054494D /* Fibonacci.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9139B3A71E93AF6E0054494D /* Fibonacci */ = {
+			isa = PBXGroup;
+			children = (
+				9139B3A81E93AF6E0054494D /* AppDelegate.swift */,
+				9139B3AA1E93AF6E0054494D /* ViewController.swift */,
+				9139B3AC1E93AF6E0054494D /* Main.storyboard */,
+				9139B3AF1E93AF6E0054494D /* Assets.xcassets */,
+				9139B3B11E93AF6E0054494D /* LaunchScreen.storyboard */,
+				9139B3B41E93AF6E0054494D /* Info.plist */,
+			);
+			path = Fibonacci;
+			sourceTree = "<group>";
+		};
+		FF7783128652365FFCA313DD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				59CA35AB956EF2C868DA366C /* Pods-Fibonacci.debug.xcconfig */,
+				96D32BA458299698BFCA469C /* Pods-Fibonacci.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9139B3A41E93AF6E0054494D /* Fibonacci */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9139B3B71E93AF6E0054494D /* Build configuration list for PBXNativeTarget "Fibonacci" */;
+			buildPhases = (
+				E8E5F016CE915EB9E49242B0 /* [CP] Check Pods Manifest.lock */,
+				9139B3A11E93AF6E0054494D /* Sources */,
+				9139B3A21E93AF6E0054494D /* Frameworks */,
+				9139B3A31E93AF6E0054494D /* Resources */,
+				BD7C87297AD05DA6CE97BBB2 /* [CP] Embed Pods Frameworks */,
+				AF02B75D8CDF1C2CA8317B96 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Fibonacci;
+			productName = Fibonacci;
+			productReference = 9139B3A51E93AF6E0054494D /* Fibonacci.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9139B39D1E93AF6E0054494D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Alex Sobolevski";
+				TargetAttributes = {
+					9139B3A41E93AF6E0054494D = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = THVB3HU58F;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 9139B3A01E93AF6E0054494D /* Build configuration list for PBXProject "Fibonacci" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9139B39C1E93AF6E0054494D;
+			productRefGroup = 9139B3A61E93AF6E0054494D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9139B3A41E93AF6E0054494D /* Fibonacci */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9139B3A31E93AF6E0054494D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9139B3B31E93AF6E0054494D /* LaunchScreen.storyboard in Resources */,
+				9139B3B01E93AF6E0054494D /* Assets.xcassets in Resources */,
+				9139B3AE1E93AF6E0054494D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AF02B75D8CDF1C2CA8317B96 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Fibonacci/Pods-Fibonacci-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BD7C87297AD05DA6CE97BBB2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Fibonacci/Pods-Fibonacci-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E8E5F016CE915EB9E49242B0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9139B3A11E93AF6E0054494D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9139B3AB1E93AF6E0054494D /* ViewController.swift in Sources */,
+				9139B3A91E93AF6E0054494D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9139B3AC1E93AF6E0054494D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9139B3AD1E93AF6E0054494D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9139B3B11E93AF6E0054494D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9139B3B21E93AF6E0054494D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9139B3B51E93AF6E0054494D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9139B3B61E93AF6E0054494D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9139B3B81E93AF6E0054494D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59CA35AB956EF2C868DA366C /* Pods-Fibonacci.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = THVB3HU58F;
+				INFOPLIST_FILE = Fibonacci/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Alex.Fibonacci.Wowzie;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		9139B3B91E93AF6E0054494D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96D32BA458299698BFCA469C /* Pods-Fibonacci.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = THVB3HU58F;
+				INFOPLIST_FILE = Fibonacci/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Alex.Fibonacci.Wowzie;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9139B3A01E93AF6E0054494D /* Build configuration list for PBXProject "Fibonacci" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9139B3B51E93AF6E0054494D /* Debug */,
+				9139B3B61E93AF6E0054494D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9139B3B71E93AF6E0054494D /* Build configuration list for PBXNativeTarget "Fibonacci" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9139B3B81E93AF6E0054494D /* Debug */,
+				9139B3B91E93AF6E0054494D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9139B39D1E93AF6E0054494D /* Project object */;
+}
